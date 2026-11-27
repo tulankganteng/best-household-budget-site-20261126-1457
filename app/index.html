@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DompetKeluarga — Anggaran Rumah Tangga yang Rapi</title>
+<meta name="description" content="DompetKeluarga: dasbor anggaran rumah tangga, kalkulator 50/30/20, pelacak pengeluaran, perencana bulanan, dan tujuan tabungan. Semua berjalan di peramban, tanpa akun.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">◈</span> Dompet<span>Keluarga</span></a>
+    <nav class="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-nav="home">Beranda</a>
+      <a href="#/kalkulator" data-nav="kalkulator">Kalkulator</a>
+      <a href="#/pengeluaran" data-nav="pengeluaran">Pengeluaran</a>
+      <a href="#/perencana" data-nav="perencana">Perencana</a>
+      <a href="#/tabungan" data-nav="tabungan">Tabungan</a>
+      <a href="#/tips" data-nav="tips">Tips</a>
+      <a href="#/tentang" data-nav="tentang">Tentang</a>
+    </nav>
+    <div class="month-picker">
+      <label for="monthSelect">Bulan</label>
+      <select id="monthSelect" aria-label="Pilih bulan"></select>
+    </div>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p><strong>DompetKeluarga</strong> — contoh anggaran rumah tangga fiktif Keluarga Santoso, Jakarta. Semua angka dalam rupiah (IDR) dan tersimpan hanya di peramban Anda.</p>
+    <p class="footer-links"><a href="#/tentang">Metode 50/30/20</a> · <a href="#/tips">Tips hemat</a> · <a href="#/kalkulator">Hitung anggaranmu</a></p>
+    <p class="fineprint">Angka contoh untuk ilustrasi, bukan nasihat keuangan. DompetKeluarga tidak mengumpulkan data apa pun.</p>
+  </div>
+</footer>
+</body>
+</html>
